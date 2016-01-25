@@ -4,10 +4,11 @@ services:
   - mongodb
 
 rvm:
-  - 2.1.5
-  - 2.2.1
+  - 2.2.4
 
 env:
-  - "RAILS_VERSION=4.0"
-  - "RAILS_VERSION=4.1"
   - "RAILS_VERSION=4.2"
+
+branches:
+  only:
+    - rails424ruby224
