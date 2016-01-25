@@ -9,6 +9,8 @@ rvm:
 env:
   - "RAILS_VERSION=4.2"
 
+
 branches:
   only:
     - rails424ruby224
+
